@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding with WebAssembly</title>
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+<h1>Pathfinding with WebAssembly</h1>
+
+<label>Start X: <input type="number" id="startX" required></label>
+<label>Start Y: <input type="number" id="startY" required></label>
+<label>End X: <input type="number" id="endX" required></label>
+<label>End Y: <input type="number" id="endY" required></label>
+
+<button onclick="runPathfinding()">Find Path</button>
+
+<pre id="output"></pre>
+</body>
+</html>
